@@ -1,0 +1,79 @@
+body{
+    background-color: dimgrey;
+}
+
+.inf{
+    display: grid;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.title{
+    justify-self: center;
+}
+
+.t1{
+    justify-self: space-around;
+}
+
+.ins{
+    display: grid;
+    grid-auto-flow: row;
+    align-content: flex-start;
+    padding: 5px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.label1{
+    margin-left: 33%;
+    padding-bottom: 2px;
+}
+
+.label2{
+    margin-left: 33%;
+    padding-bottom: 2px;
+}
+
+.button{
+    justify-self: center;
+    width: 15%;
+    border-radius: 5px;
+    background-color:darkgrey;
+}
+.lists{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-items: center;
+    align-items: space-between;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.ul1{
+    grid-column: 1/1;
+    flex-flow: column;
+    justify-content: space-between;
+    color:blue;
+}
+
+.ul2{
+    grid-column: 2/2;
+    flex-flow: column;
+    justify-content: space-between;
+    color:green;
+}
+
+.ul3{
+    grid-column: 3/3;
+    flex-flow: column;
+    justify-content: space-between;
+    color:purple;
+}
+

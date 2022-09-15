@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1160px;
+  height: 380px;
+  border: solid black;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.player{
+  background-color: red;
+}
+
+.parede{
+  background-color: green;
+}
+
+.ginasio{
+  background-color: yellow;
+}
+
+.cap{
+  background-color: blueviolet;
+}
+.visited{
+  background-color: blue;
+}

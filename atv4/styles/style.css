@@ -1,0 +1,88 @@
+html {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    background-image: url('../images/mapa.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.startScreen{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    margin: 10vw;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.left{
+    height: 100vh;
+    width: 500px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0.42;
+}
+
+.right{
+    height: 100vh;
+    width: 387px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 0.33;
+}
+
+.items{
+    display: flex;
+    cursor: pointer;
+    width: 82px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2%;
+}
+
+.b{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 760px;
+    padding-right: 50px;;
+    flex-direction: row;
+}
+
+.boatImage{
+    margin-top: 70px;
+    width: 300px;
+    height: 150px;
+}

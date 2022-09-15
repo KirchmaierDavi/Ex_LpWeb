@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles/style.css" rel="stylesheet">
+    <script type="text/javascript" defer src="scripts/main.js"></script>
+    <title>Atv4-Aluno: Davi Kirchmaier Paiva</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="start" class="startScreen">
+            <h1>Arthur precisa da sua ajuda!</h1>
+            <h3>
+                Ajude o Arthur a fugir de Blackwater e chegar no Tahiti a barco!
+            </h3>
+            <p>
+                Ele precisa de ajuda para carregar uma ovelha, um lobo, e uma manga (pra sua fazenda de mangas)
+                , que foram pedidos de Dutch, porém, todos juntos não cabem no barco, ele tera de levar apenas 
+                um item de cada vez!
+            </p>
+            <ul>
+                <h3>REGRAS:</h3>
+                <li>O barco só pode andar com o Arthur dentro.</li>
+                <li>Caso a ovelha fique sozinha em uma margem com a manga, ela come a manga.</li>
+                <li>Caso o lobo fique sozinho com a ovelha, a mesma sera comida.</li>
+                <li>Arthur precisa levar todos os itens intactos para o Tahiti.</li>
+            </ul>
+            <button id="bt" class="btn">Começar!</button>
+        </div>
+        <div class="startScreen" id="w" style = "display: none">
+            <h1>Parabens!</h1>
+            <h2>Old Dutch recebeu sua manga e Arthur vai ter sua fazendo de manga!</h2>
+            <p>
+                Obrigado por jogar! aperte o botão caso queira jogar novamente.
+            </p>
+            <button id="restart-button">Reiniciar!</button>
+        </div>
+        <div class="startScreen" id="loss" style = "display: none">
+            <h1>Ish!</h1>
+            <h2>Arthur teve problemas na travessia!</h2>
+            <p>
+                Os pinkertons roubaram a manga do old Dutch! aperte o botão caso queira tentar novamente.
+            </p>
+            <button id="restart-button">Reiniciar!</button>
+        </div>
+        <div id="l" class="left"></div>
+        <div id="river" class="b" style="justify-content: flex-start">
+            <img class="boatImage" id="bi" src="./images/boat.png" style ="position: absolute"></img>
+        </div>
+        <div id="r" class="right"></div>
+    </div>
+</body>
+</html>
+
+/*Nota para o Professor: Professor, peço desculpas de ante-mão, não conseguir fazer a tela
+de derrota funcionar direito no site, tentei de todos os jeitos, se possivel, após a correção, 
+o senhor poderia me indicar qual meu erro?
+Desde já, agradeço pela compreensão, Davi Kirchmaier Paiva.*/

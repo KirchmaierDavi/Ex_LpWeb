@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculo do churrasco</title>
+    <link href="./style/style.css" rel="stylesheet">
+    <script defer src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculadora de custos</h1>
+      <p>
+        João Vitor Pereira (matricula:202176010 / email: pereira.joao@estudante.ufjf.br / Git username: Perera Dev)
+      </p>
+      <p>
+        Davi Kirchmaier Paiva (matricula:202176021 / email: davi.kirchmaier99@gmail.com / Git username: KirchmaierDavi)
+      </p>
+      <div class="ptc" id="Cima">
+        <div>
+          <label for="Nome">Nome</label>
+          <input type="text" class="inputlabel" id="Nome" />
+          <input type="button"  class="btn" value="Adiciona" id="Add" />
+        </div>
+        <div>
+          <label for="produto">Produto</label>
+          <input type="text" class="inputlabel" id="Produto" />
+          <label for="valorUn"> valor Un.</label>
+          <input type="number" class="inputlabel" id="ValorUn" />
+          <input type="button" class="btn" value="Custo Fixo" id="CustoF" />
+          <input type="button" class="btn" value="Per Capita" id="PerCap" />
+        </div>
+      </div>
+      <div class="ptb" id="Baixo">
+        <div class="ul">
+          <h2>Pessoas</h2>
+          <ul id="listP"></ul>
+        </div>
+        <div id="cf">
+          <h2>Custo Fixo</h2>
+          <table>
+            <th>Produto </th>
+            <th>Preço</th>
+            <tbody id="table1">
+            </tbody>
+          </table>
+        </div>
+        <div id="cpc">
+          <h2>Custo per capita</h2>
+          <table>
+            <th>Produto</th>
+            <th>Preço</th>
+            <tbody id="table2">
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <h2>Custo por pessoa:</h2>
+          <p id="divisao">R$00,00</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

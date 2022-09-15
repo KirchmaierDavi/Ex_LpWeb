@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Poppins:400,500&display=swap");
+
+html{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    width: 75vw;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 5%;
+    padding-top: 15px;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.133);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+}
+
+.container h1{
+    color: white;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.container p{
+    color: white;
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+label{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.btn{
+    font-family: "Montserrat", sans-serif;
+    border-radius: 5px;
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.521);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+}
+
+.ptc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.ptb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+    font-family:"Montserrat", sans-serif;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.remove-button{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin: auto;
+}
+
+input[type="text"] {
+    outline: none;
+    border-radius: 9px;
+    font-family: "Monteserrat", sans-serif;
+    font-size: medium;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.521);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+  }
+  
+  input[type="number"] {
+    outline: none;
+    border-radius: 9px;
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.521);
+    border: 1px solid #fff;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+  }
+  
+  li{
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+  }
+
+  table, tbody, th, tr, td{
+    border: 1px solid #fff;
+    border-collapse: collapse;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 6px 0 rgba(29, 29, 29, 0.203);
+    width: fit-content;
+    height: fit-content;
+  }
+  
